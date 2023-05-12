@@ -5,17 +5,12 @@ const authLayout = () => {
   return (
     <Stack>
       <Stack.Screen
-        name="index"
+        name="login"
         options={{
           headerShown: false,
         }}></Stack.Screen>
       <Stack.Screen
-        name="(auth)/login"
-        options={{
-          headerShown: false,
-        }}></Stack.Screen>
-      <Stack.Screen
-        name="(auth)/register"
+        name="register"
         options={{
           headerTitle: 'Create Account',
         }}></Stack.Screen>
